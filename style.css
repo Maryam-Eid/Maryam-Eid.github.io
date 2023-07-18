@@ -625,151 +625,234 @@ section {
     color: #ffffff;
 }
 
-
-/* Mobile devices */
+/* mobile devices */
 @media screen and (max-width: 767px) {
-    header {
-      padding: 10px 20px;
-    }
-    
-    .logo {
-      font-size: 1.5em;
-    }
-    
-    .nav {
-      display: none;
-    }
-    
-    .nav-toggle {
-      display: block;
-      font-size: 1.2em;
-      color: #ffffff;
-      cursor: pointer;
-    }
-    
-    section {
-      padding: 50px 20px;
-    }
-    
-    .main {
-      padding: 100px 20px;
-      background-size: 375px;
-    }
-    
-    .main span {
-      font-size: 2em;
-    }
-    
-    .main h3,
-    .main h4 {
-      margin-left: 0;
-    }
-    
-    .main h3 {
-      font-size: 1em;
-    }
-    
-    .main h4 {
-      font-size: 0.8em;
-    }
-    
-    .main h3,
-    .main h4,
-    .main span,
-    .social-icons,
-    .main-btn {
-      margin-left: 0;
-    }
-    
-    .title {
-      font-size: 1.8em;
-    }
-    
-    .card {
-      width: 100%;
-      margin: 10px;
-    }
-    
-    .pcard,
-    .ccard {
-      width: 100%;
-      margin: 10px;
-    }
-    
-    .footer {
-      padding: 1em;
-      flex-direction: column;
-      align-items: center;
-    }
-    
-    .footer-title {
-      font-size: 1em;
-    }
-    
-    .fsocial-icons {
-      margin-top: 10px;
-    }
-    
-    .fcontainer {
-      width: 100%;
-      height: auto;
-      margin-right: 0;
-      padding: 20px;
-    }
+  header {
+    padding: 10px 20px;
   }
-  
-  /* Tablets and small desktops */
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-    header {
-      padding: 10px 50px;
-    }
-    
-    .logo {
-      font-size: 1.6em;
-    }
-    
-    section {
-      padding: 80px 150px;
-    }
-    
-    .main {
-      padding: 100px 150px;
-      background-size: 500px;
-    }
-    
-    .main span {
-      font-size: 2.2em;
-    }
-    
-    .main h3 {
-      font-size: 1.2em;
-    }
-    
-    .main h4 {
-      font-size: 1em;
-    }
-    
-    .title {
-      font-size: 2em;
-    }
-    
-    .card {
-      width: calc(50% - 40px);
-      margin: 15px;
-    }
-    
-    .pcard,
-    .ccard {
-      width: calc(33.33% - 40px);
-      margin: 15px;
-    }
-    
-    .footer {
-      padding: 1em 5em;
-    }
-    
-    .footer-title {
-      font-size: 1.1em;
-    }
+
+  .logo {
+    font-size: 1.5em;
   }
-  
+
+  .nav {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: block;
+    font-size: 1.2em;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  section {
+    padding: 50px 20px;
+  }
+
+  .main {
+    padding: 100px 20px;
+    background-size: 375px;
+  }
+
+  .main span {
+    font-size: 2em;
+  }
+
+  .main h3,
+  .main h4 {
+    margin-left: 0;
+  }
+
+  .main h3 {
+    font-size: 1em;
+  }
+
+  .main h4 {
+    font-size: 0.8em;
+  }
+
+  .main h3,
+  .main h4,
+  .main span,
+  .social-icons,
+  .main-btn {
+    margin-left: 0;
+  }
+
+  .title {
+    font-size: 1.8em;
+  }
+
+  .card {
+    width: 42%;
+    margin: 10px;
+  }
+
+  .pcard,
+  .ccard {
+    width: 100%;
+    margin: 10p 0x;
+  }
+
+  .footer {
+    padding: 1em;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-title {
+    font-size: 1em;
+  }
+
+  .fsocial-icons {
+    margin-top: 10px;
+  }
+
+  .fcontainer {
+    width: 100%;
+    height: 530px;
+    margin-right: 0;
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+}
+
+/* tablets and small desktops */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  header {
+    padding: 10px 50px;
+  }
+
+  .logo {
+    font-size: 1.6em;
+  }
+
+  section {
+    padding: 80px 150px;
+  }
+
+  .main {
+    padding: 100px 150px;
+    background-size: 500px;
+  }
+
+  .main span {
+    font-size: 2.2em;
+  }
+
+  .main h3 {
+    font-size: 1.2em;
+  }
+
+  .main h4 {
+    font-size: 1em;
+  }
+
+  .title {
+    font-size: 2em;
+  }
+
+  .about-content{
+    margin: 20px;
+  }
+  .card {
+    width: calc(50% - 40px);
+    margin: 15px;
+  }
+
+  .pcard{
+    width: calc(100%);
+    margin: 15px;
+  }
+
+
+  .ccard {
+    width: calc(100%);
+    margin: 15px 0px;
+  }
+
+  .footer {
+    padding: 1em 5em;
+  }
+
+  .footer-title {
+    font-size: 1.1em;
+  }
+
+  .fcontainer {
+    width: 100%;
+    height: 500px;
+    margin-right: 0;
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+}
+
+/* large screens */
+@media screen and (min-width: 1024px) {
+  header {
+    padding: 10px 130px;
+  }
+
+  section {
+    padding: 80px 200px;
+  }
+
+  .main {
+    background-size: 600px;
+  }
+
+  .main span {
+    margin-top: 200px;
+    font-size: 2.4em;
+  }
+
+  .main h3 {
+    font-size: 1.1em;
+  }
+
+  .main h4 {
+    margin-top: -10px;
+    font-size: 0.9em;
+  }
+
+  .main h3,
+  .main h4,
+  .main span,
+  .social-icons,
+  .main-btn {
+    margin-left: -80px;
+    margin-bottom: 20px;
+  }
+
+  .title {
+    font-size: 2.2em;
+  }
+
+  .card {
+    width: 7em;
+    margin: 15px 12px;
+  }
+
+  .pcard {
+    width: calc(40%);
+  }
+
+  .ccard{
+    width: calc(100%);
+  }
+
+  .footer {
+    padding: 1.1em;
+  }
+
+  .footer-title {
+    font-size: 1.1em;
+  }
+
+  .fcontainer {
+    width: 500px;
+    padding: 25px 40px 10px 40px;
+  }
+}
